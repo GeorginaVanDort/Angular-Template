@@ -1,5 +1,5 @@
 # Angular2 JS Template :computer::notebook_with_decorative_cover::checkered_flag:
-### By _Alexander Jacks_
+### By _Alexander Jacks & Georgina Van Dort_
 
 ### Description
 Pile of premade files for fast Angular2 Project builds. Skeletal CSS file exists, as does AppComponent root module. Enjoy Angular2!
@@ -36,4 +36,4 @@ Check out some of these resources to understand the technologies:_
 ### Legal
 _This software is available under the MIT license and can be modified and used for any purposes without express permission of the author._
 
-∆2016∆ **AJ**
+∆2016∆ **AJ & GVD**
