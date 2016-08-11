@@ -1,17 +1,16 @@
-# AngularJS Template :computer::notebook_with_decorative_cover::checkered_flag:
+# Angular2 JS Template :computer::notebook_with_decorative_cover::checkered_flag:
 ### By _Alexander Jacks_
 
 ### Description
-Pile of premade files for fast Angular Project builds.
+Pile of premade files for fast Angular2 Project builds. Skeletal CSS file exists, as does AppComponent root module. Enjoy Angular2!
 
 ## Setup Directions
 ```
 - clone repo
 - $ npm install
-- $ bower install
-- install globals if needed (gulp, bower, sass, typescript, typescript packages)
-  - $ npm install gulp -g
-  - $ npm install bower -g
+- $ npm install gulp -g
+- $ npm install bower -g
+- install support packages globally if needed (sass, typescript, typescript packages)
   - $ gem install sass
   - $ npm install typescript -g
   - $ apm install atom-typescript
@@ -20,7 +19,7 @@ Pile of premade files for fast Angular Project builds.
 ```
 
 ## Technologies Configured, (full or partial)
-- Application: AngularJS, Typescript
+- Application: Angular2, Typescript
 - Configuration: npm, Gulp, Bower
 - Testing: Typescript, JSHint, Chrome
 - Design: Bootstrap, Sass
@@ -36,4 +35,4 @@ Check out some of these resources to understand the technologies:_
 ### Legal
 _This software is available under the MIT license and can be modified and used for any purposes without express permission of the author._
 
-†2016† **AJ**
+∆2016∆ **AJ**
