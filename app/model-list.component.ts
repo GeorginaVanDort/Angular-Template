@@ -11,7 +11,7 @@ import { GenericPipe } from './generic.pipe';
   inputs: ['modelList'],
   outputs: ['onModelSelect'],
   directives: [ModelComponent, EditModelDetailsComponent, NewModelComponent],
-  pipes: [GenericPipe]
+  pipes: [GenericPipe],
   template:`
   <select (change)="onChange($event.target.value)">
     <option value="all">Show All Models</option>
@@ -50,10 +50,4 @@ export class ModelListComponent {
     this.selectedPipe = optionFromDropDownMenu;
     console.log(this.selectedPipe);
   }
-}
-
-
-
-
-
 }

@@ -10,6 +10,7 @@ Pile of premade files for fast Angular2 Project builds. Skeletal CSS file exists
 - $ npm install
 - $ npm install gulp -g
 - $ npm install bower -g
+- $ bower install
 - install support packages globally if needed (sass, typescript, typescript packages)
   - $ gem install sass
   - $ npm install typescript -g

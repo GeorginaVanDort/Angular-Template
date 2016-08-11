@@ -1,5 +1,5 @@
 import {Component} from 'angular2/core';
-import {Task} from './model.model';
+import {Model} from './model.model';
 
 @Component({
   selector: 'edit-model-details',

@@ -8,16 +8,19 @@ import { Model } from './model.model'
   template: `
   <div class="container">
     <h1>Skeleton Angular2 App!</h1>
-    <model-list  ></model-list>
+    <model-list [modelList]="models" (onModelSelect)="modelWasSelected($event)"></model-list>
   </div>
   `
 })
 
 export class AppComponent {
-  public model: Model[];
+  public models: Model[];
   constructor(){
     this.models = [
-      new Model()
+      new Model('Create app with List and check-off functionality', 0),
+      new Model('Learn Jeet Kun Do.', 1),
+      new Model('Rewatch all the Inception movies.', 2),
+      new Model('Do the laundry.', 3)
     ];
   }
   modelWasSelected(clickedModel: Model): void {
